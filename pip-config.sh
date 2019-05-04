@@ -12,11 +12,11 @@ then
 fi
 
 #using douban mirror
-if [ ! -d "~/.pip/" ]
+if [ ! -d ~/.pip/ ]
 then
     mkdir ~/.pip
 fi
-if [ ! -e "~/.pip/pip.conf" ]
+if [ ! -e ~/.pip/pip.conf ]
 then
     cp pip.conf ~/.pip
 fi
